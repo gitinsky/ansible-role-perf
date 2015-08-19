@@ -1,0 +1,2 @@
+- name: install perf
+  yum: name=perf state=present
