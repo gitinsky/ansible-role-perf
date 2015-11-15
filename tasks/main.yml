@@ -1,2 +1,3 @@
 - name: install perf
   yum: name=perf state=present
+  when: ansible_os_family  == "RedHat"
